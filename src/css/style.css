@@ -8,22 +8,25 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 
 }
 .centralization{
     background-color: aqua;
-    width: 90%;
+    width: 100%;
 }
 .images{
     display: flex;
     gap: 20px;
     justify-content: center;
+    padding: 0px 20px;
 
 }
 .card{
     border: 1px solid lightgreen;
     background-color: blue;
     flex-grow: 1;
-    flex-basis: 335px;
+    flex-basis: var(--image-width);
+    min-height: var(--image-height);
     
 }

@@ -1,0 +1,17 @@
+@media(max-width: 992px){
+    .container{
+        height: 100%;
+    }
+    .images{
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+        /* max-width: 335px; */
+    }
+    .card{
+        max-width: 336px;
+    }
+}
+/* @media(max-width: 768px){
+    .card{
+        max-width: 336px;
+    } */

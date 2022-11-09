@@ -3,7 +3,7 @@ body{
 
 }
 .container{
-    background-color: red;
+    /* background-color: red; */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@ body{
 
 }
 .centralization{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 100%;
 }
 .images{
@@ -24,9 +24,23 @@ body{
 }
 .card{
     border: 1px solid lightgreen;
-    background-color: blue;
+    /* background-color: blue; */
     flex-grow: 1;
     flex-basis: var(--image-width);
     min-height: var(--image-height);
+    padding-left: 20px;
+    padding-bottom: 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
     
+}
+.card .title{
+    font-size: var(--title-size);
+    font-weight: 700;
+}
+.card .artist{
+    font-size: var(--text-size);
+    font-weight: 300;
 }

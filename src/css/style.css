@@ -1,0 +1,29 @@
+body{
+    font-family: 'Public Sans', sans-serif;
+
+}
+.container{
+    background-color: red;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.centralization{
+    background-color: aqua;
+    width: 90%;
+}
+.images{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+.card{
+    border: 1px solid lightgreen;
+    background-color: blue;
+    flex-grow: 1;
+    flex-basis: 335px;
+    
+}

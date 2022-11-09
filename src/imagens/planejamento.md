@@ -14,6 +14,6 @@
 -[x] criada
 
 # criar estrutura html
-
+- [x]
 
 # Criar estrutura do css

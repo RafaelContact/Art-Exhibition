@@ -34,6 +34,10 @@ body{
     flex-direction: column;
     justify-content: flex-end;
 
+    color: #ffffff;
+    background-size:  cover;
+    background-repeat: no-repeat;
+
     
 }
 .card .title{
@@ -43,4 +47,18 @@ body{
 .card .artist{
     font-size: var(--text-size);
     font-weight: 300;
+}
+.card:nth-child(1){
+    background-image: url(../imagens/rome.png);
+    background-size: cover;
+}
+.card:nth-child(2){
+    background-image: url(../imagens/boat.png);
+    
+}
+.card:nth-child(3){
+    background-image: url(../imagens/sand-and-sea.png);
+}
+.card:nth-child(4){
+    background-image: url(../imagens/starry-night.png);
 }

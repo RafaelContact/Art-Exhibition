@@ -1,7 +1,5 @@
-# Art-Exhibition
-
 <div align="center">
-  <h1> NFT card</h1>
+  <h1> Art-Exhibition</h1>
 
   [link do site](https://rafinha-dev.github.io/Art-Exhibition/)
   
